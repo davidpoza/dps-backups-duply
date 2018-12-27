@@ -26,7 +26,7 @@ jobname = "profile" #nombre del perfil de duply
 mysqlUser = "root"
 mysqlPass = "xxxxxxxxxxxxxxxxxxx"
 # mysqlDbList = ["DB1", "OTRADB1", "OTRADB2"]
-# mysqlContainerName = "nextcloud_db_1"
+# mysqlContainerName = "contenedor-docker"
 dirLogs = "/var/log/"
 fileLog = dirLogs + "back_" + fecha + ".log"
 # directorio para el volcado mysql
