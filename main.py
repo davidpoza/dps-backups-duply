@@ -162,7 +162,7 @@ def delMysqlBack():
 def doDuplyBackup(jobname):
     ret = run(
         [
-            "duply", jobname, "backup"
+            "duply", jobname, "bkp+purge"
         ],
         stdout=PIPE, stderr=PIPE
     )
